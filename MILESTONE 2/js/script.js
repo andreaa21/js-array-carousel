@@ -24,16 +24,5 @@ items[imageCounter].classList.add('active');
 const up = document.querySelector('.up');
 const down = document.querySelector('.down');
 
-down.addEventListener('click', function(){
-    items[imageCounter].classList.remove('active');
-    imageCounter++;
-    items[imageCounter].classList.add('active');
-    console.log(imageCounter);
-});
-up.addEventListener('click', function(){
-    items[imageCounter].classList.remove('active');
-    imageCounter--;
-    items[imageCounter].classList.add('active');
-    console.log(imageCounter);
-});
+
 
