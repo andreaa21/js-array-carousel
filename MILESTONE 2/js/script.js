@@ -29,11 +29,11 @@ down.addEventListener('click', function(){
     imageCounter++;
     items[imageCounter].classList.add('active');
     console.log(imageCounter);
-})
+});
 up.addEventListener('click', function(){
     items[imageCounter].classList.remove('active');
     imageCounter--;
     items[imageCounter].classList.add('active');
     console.log(imageCounter);
-})
+});
 
