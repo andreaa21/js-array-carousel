@@ -21,3 +21,16 @@ let imageCounter = 0;
 const items = document.getElementsByClassName('item');
 items[imageCounter].classList.add('active');
 
+
+down.addEventListener('click', function(){
+    items[imageCounter].classList.remove('active');
+    imageCounter++;
+    items[imageCounter].classList.add('active');
+    console.log(imageCounter);
+});
+up.addEventListener('click', function(){
+    items[imageCounter].classList.remove('active');
+    imageCounter--;
+    items[imageCounter].classList.add('active');
+    console.log(imageCounter);
+});
